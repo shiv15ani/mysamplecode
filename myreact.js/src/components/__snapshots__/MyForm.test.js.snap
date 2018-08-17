@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to view the snapshot  1`] = `
+<React.Fragment>
+  <Bookstore />
+  <div
+    className="container"
+  >
+    <div>
+      <h2>
+        Add Requirement
+      </h2>
+    </div>
+    <form>
+      <div
+        className="form-row"
+      >
+        <InputText
+          add={[Function]}
+          id="crm_id"
+        >
+          CRM iD
+        </InputText>
+        <InputText
+          add={[Function]}
+          id="crm_name"
+        >
+          CRM Name
+        </InputText>
+      </div>
+      <div
+        className="form-row"
+      >
+        <InputText
+          add={[Function]}
+          id="request_id"
+        >
+          Request ID
+        </InputText>
+        <InputText
+          add={[Function]}
+          id="requirement_id"
+        >
+          Requirement ID
+        </InputText>
+      </div>
+      <div
+        className="form-row"
+      >
+        <Dropdown
+          add={[Function]}
+          id="requirement_type"
+          values={
+            Array [
+              "New/Immediate",
+              "Future",
+              "Replacement",
+            ]
+          }
+        >
+          Requirement Type
+        </Dropdown>
+      </div>
+      <div
+        className="mycenter"
+      >
+        <Link
+          replace={false}
+          to="/DisplayComponent"
+        >
+          <input
+            className="btn btn-success"
+            onClick={[Function]}
+            type="submit"
+            value="SUBMIT"
+          />
+        </Link>
+      </div>
+    </form>
+  </div>
+</React.Fragment>
+`;
